@@ -1,8 +1,6 @@
 import requests
 import datetime
 
-url = "https://api.telegram.org/bot441532923:AAE7-EwZI050C3jvExQdVGiMOIrhqnJ9cF4/"
-
 
 class BotHandler:
 
@@ -33,7 +31,7 @@ class BotHandler:
 
         return last_update
 
-greet_bot = BotHandler(token)
+greet_bot = BotHandler("441532923:AAE7-EwZI050C3jvExQdVGiMOIrhqnJ9cF4")
 greetings = ('здравствуй', 'привет', 'ку', 'здорово')
 now = datetime.datetime.now()
 
